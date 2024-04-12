@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "process_images",
+  "version": "1.0.0",
+  "description": "## Utility to process images",
+  "main": "process.js",
+  "scripts": {
+    "start": "node process.js",
+    "dev": "nodemon process.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Carmen Salgueiro",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "minimist": "^1.2.8",
+    "sharp": "^0.33.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
